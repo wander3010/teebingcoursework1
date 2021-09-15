@@ -7,8 +7,8 @@
   <name>teebingcoursework1codemanagementpom</name>
   <description>teebingcoursework1codemanagementpom</description>
   
-  <!-- add code here -->
   <dependencies>
+  <!-- add code here -->
 	<dependency>
 		<groupId>javax.servlet</groupId>
 		<artifactId>javax.servlet-api</artifactId>
@@ -21,10 +21,18 @@
 		<version>2.3.1</version>
 		<scope>provided</scope>
 	</dependency>
-	</dependencies>
 	<!-- end of code -->
-  
-  
+	
+	<!-- start of version 3 code -->
+	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>8.0.25</version>
+	</dependency>
+	<!-- end of version 3 code -->
+	</dependencies>
+	
   <build>
     <plugins>
       <plugin>

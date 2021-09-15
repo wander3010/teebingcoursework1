@@ -31,6 +31,15 @@
 		<version>8.0.25</version>
 	</dependency>
 	<!-- end of version 3 code -->
+	
+	<!--  start of version 3.1 code -->
+	<!-- https://mvnrepository.com/artifact/jstl/jstl -->
+	<dependency>
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+	</dependency>
+	<!-- end of version 3.1 code -->
 	</dependencies>
 	
   <build>
